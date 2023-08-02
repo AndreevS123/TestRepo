@@ -82,13 +82,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1739178665378678203}
   toggleTransition: 1
   graphic: {fileID: 2996693520776990691}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 3153109526572287378}
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5689570051299771127}
-        m_TargetAssemblyTypeName: ToggleListScript, Assembly-CSharp
-        m_MethodName: ToggleTriggered
+      - m_Target: {fileID: 11400000, guid: 3656fca7dcdb1504a88db8e4e3a59305, type: 2}
+        m_TargetAssemblyTypeName: MenuDataHolder, Assembly-CSharp
+        m_MethodName: set_Qualitiy
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -258,13 +258,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2115408579335344020}
   toggleTransition: 1
   graphic: {fileID: 2115408579930500960}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 3153109526572287378}
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5689570051299771127}
-        m_TargetAssemblyTypeName: ToggleListScript, Assembly-CSharp
-        m_MethodName: ToggleTriggered
+      - m_Target: {fileID: 11400000, guid: 3656fca7dcdb1504a88db8e4e3a59305, type: 2}
+        m_TargetAssemblyTypeName: MenuDataHolder, Assembly-CSharp
+        m_MethodName: set_Qualitiy
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -743,13 +743,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 111072889444178989}
   toggleTransition: 1
   graphic: {fileID: 648944576742514596}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 3153109526572287378}
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5689570051299771127}
-        m_TargetAssemblyTypeName: ToggleListScript, Assembly-CSharp
-        m_MethodName: ToggleTriggered
+      - m_Target: {fileID: 11400000, guid: 3656fca7dcdb1504a88db8e4e3a59305, type: 2}
+        m_TargetAssemblyTypeName: MenuDataHolder, Assembly-CSharp
+        m_MethodName: set_Qualitiy
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -769,7 +769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 900059586229778126}
-  - component: {fileID: 5689570051299771127}
+  - component: {fileID: 3153109526572287378}
   m_Layer: 5
   m_Name: ToggleList
   m_TagString: Untagged
@@ -800,7 +800,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -150}
   m_SizeDelta: {x: 450.04, y: 420.7}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5689570051299771127
+--- !u!114 &3153109526572287378
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -809,14 +809,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7115476155227472857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f7708c228d2076439038475c94893fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quality: 0
-  children:
-  - {fileID: 2115408579178586543}
-  - {fileID: 1736961498204555519}
-  - {fileID: 1273172285472897483}
+  m_AllowSwitchOff: 0
 --- !u!1 &7767159419501318044
 GameObject:
   m_ObjectHideFlags: 0
